@@ -12,7 +12,7 @@ app.register_blueprint(auth_bp)
 
 @app.route('/')
 def home():
-    return "ReWear backend running!"
+    return send_from_directory(os.path.join(os.path.dirname(_file_), '../frontend'), 'index.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
