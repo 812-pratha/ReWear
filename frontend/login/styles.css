@@ -124,7 +124,7 @@ h2 {
   text-decoration: underline;
 }
 
-button {
+#register {
   background-color: #271930;
  color: #ffffff;
   font-weight: 600;
@@ -137,7 +137,7 @@ button {
   transition: all 0.3s ease;
 }
 
-button:hover {
+#register:hover {
   color: #000000;
   background: rgba(255, 255, 255, 0.2);
   border-color: #ffffff;
@@ -164,6 +164,27 @@ button:hover {
 .register a:hover {
   color: #cc5200; 
 }
+.social-login{
+    margin:20px;
+}
+.social-btn{
+  background-color: gray;
+ color: #ffffff;
+  font-weight: 600;
+  border: none;
+  padding: 2px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 10px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+ .social-btn:hover {
+  color: #000000;
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #ffffff;
+}                                       
+
 .form-header {
   display: flex;
   align-items: center;
@@ -184,7 +205,5 @@ button:hover {
   color: black;
   margin: 0;
 }
-            
-                                         
-                                                     
-            
+                                                   
+           
