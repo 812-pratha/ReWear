@@ -10,19 +10,20 @@
 
 <body>
   <div class="wrapper">
-    <form action="#">
+    <form id="login">
       <div class="form-header">
         <img src="logo.png" alt="Logo" class="form-logo" />
   
       </div>
       <h2>Login Form</h2>
+      <div id="message" class="status-msg"></div>
       <div class="input-field">
-        <input type="text" required>
-        <label id="email">Enter your email</label>
+        <input type="text" id="email" required />
+        <label>Enter your email</label>
       </div>
       <div class="input-field">
-        <input type="password" required>
-        <label id="password">Enter your password</label>
+        <input type="password" id="password" required />
+        <label>Enter your password</label>
       </div>
       <div class="forget">
         <label for="remember">
@@ -31,13 +32,14 @@
         </label>
         <a href="#">Forgot password?</a>
       </div>
+      
       <button type="submit" id="login">Log In</button>
       <div class="register">
-        <p>Don't have an account? <a href="#">Register</a></p>
+        <p>Don't have an account? <a href="#" onclick="redirectToRegister()">Register</a></p>
       </div>
     </form>
   </div>
   <script src="login.js" charset="UTF-8"></script>
 </body>
 
-</html>                        
+</html>
