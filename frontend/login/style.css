@@ -60,7 +60,7 @@ h2 {
 
 .input-field {
   position: relative;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid gray;
   margin: 20px 0;
 }
 
