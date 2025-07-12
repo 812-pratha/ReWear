@@ -54,7 +54,7 @@ form {
 h2 {
   font-size: 2.2rem;
   margin-bottom: 25px;
-  color: #ffffff;
+  color: black;
   letter-spacing: 1px;
 }
 
@@ -69,7 +69,7 @@ h2 {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  color: #ffffff;
+  color: black;
   font-size: 16px;
   pointer-events: none;
   transition: 0.3s ease;
@@ -82,7 +82,7 @@ h2 {
   border: none;
   outline: none;
   font-size: 16px;
-  color: #ffffff;
+  color: black;
   padding: 0 10px;
 }
 
@@ -91,7 +91,7 @@ h2 {
   font-size: 0.9rem;
   top: 10px;
   transform: translateY(-150%);
-  color: #ffdde1;
+  color: #D9A299;
 }
 
 .forget {
@@ -99,11 +99,11 @@ h2 {
   align-items: center;
   justify-content: space-between;
   margin: 25px 0 35px 0;
-  color: #ffffff;
+  color: black;
 }
 
 #remember {
-  accent-color: #ffdde1;
+  accent-color: black;
 }
 
 .forget label {
@@ -146,8 +146,25 @@ button:hover {
 .register {
   text-align: center;
   margin-top: 30px;
-  color: #ffffff;
+  color: black;
 }
+.forget a {
+  color:#D9A299 ; 
+}
+
+.forget a:hover {
+  color: #cc5200; 
+}
+
+.register a {
+  color: #D9A299; 
+  text-decoration: none;
+}
+
+.register a:hover {
+  color: #cc5200; 
+}
+
                                          
                                                      
             
